@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_cate_miscellaneous">
+        <Preference
+            android:key="notif_permit"
+            android:title="@string/pref_notif_permit" />
+        <SwitchPreference
+            android:key="hide_launcher"
+            android:title="@string/pref_hide_launcher" />
+        <PreferenceScreen android:title="@string/pref_cate_offset">
+                <EditTextPreference
+                    android:key="offset_trigger"
+                    android:defaultValue="2"
+                    android:inputType="numberDecimal"
+                    android:title="@string/pref_offset_trigger" />
+                <EditTextPreference
+                    android:key="offset_fluctuation"
+                    android:defaultValue="1"
+                    android:inputType="numberDecimal"
+                    android:title="@string/pref_offset_fluctuation" />
+                <EditTextPreference
+                    android:key="offset_y"
+                    android:defaultValue="1"
+                    android:inputType="numberDecimal"
+                    android:title="@string/pref_offset_y" />
+                <EditTextPreference
+                    android:key="offset_time"
+                    android:defaultValue="2000"
+                    android:inputType="number"
+                    android:title="@string/pref_offset_time" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_cate_about">
+        <Preference
+            android:key="version_code"
+            android:title="@string/pref_version_code" />
+    </PreferenceCategory>
+</PreferenceScreen>

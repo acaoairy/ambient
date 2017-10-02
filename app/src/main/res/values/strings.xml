@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">拿起亮屏</string>
+
+    <string name="pref_cate_offset">阈值</string>
+    <string name="pref_offset_trigger">触发阈值</string>
+    <string name="pref_offset_fluctuation">容差</string>
+    <string name="pref_offset_y">Y轴加速度</string>
+    <string name="pref_offset_time">时间阈值</string>
+    <string name="pref_cate_miscellaneous">杂项</string>
+    <string name="pref_notif_permit">通知使用权</string>
+    <string name="pref_hide_launcher">隐藏启动器图标</string>
+    <string name="pref_cate_about">关于</string>
+    <string name="pref_version_code">版本号</string>
+
+    <string name="pref_enable_permit">已启用</string>
+    <string name="pref_disable_permit">已禁用</string>
+
+    <!--关于页-->
+    <string name="about_dialog_title">关于</string>
+    <string name="about_dialog_message">
+        在能够通知亮屏的设备中增加拿起亮屏
+    </string>
+    <string name="about_dialog_support">打赏</string>
+    <string name="about_dialog_github">GitHub</string>
+    <string name="about_dialog_button">确定</string>
+</resources>
